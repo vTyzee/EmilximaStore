@@ -1,4 +1,5 @@
 package impl;
 
-public class Input {
+public interface Input {
+    String  getInput();
 }

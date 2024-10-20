@@ -1,11 +1,9 @@
-package org.example;
+package org.example; // Указываем, что класс находится в пакете org.example
 
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
-public class Emilxima {
-    public static void main(String[] args) {
+public class Emilxima { // Главный класс программы
 
-
-        }
+    public static void main(String[] args) { // Главный метод программы
+        App app = new App(); // Создаем экземпляр класса App
+        app.run(); // Запускаем метод run() для старта приложения
     }
 }
